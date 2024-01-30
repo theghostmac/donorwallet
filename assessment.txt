@@ -1,0 +1,41 @@
+Paritie Innovation Hub Coding Exercise
+
+The goal of this task is to assess your proficiency in software engineering. Please follow the instructions below to complete the assessment.
+
+Submission 
+
+These are to be submitted via email, two(2) days from date of receipt;
+
+- submit a link to a public github repository with necessary files
+- submit a link to the deployed service on render.com
+- include a link to the postman collection
+
+Tasks
+
+Build a web service using Golang gin-gonic framework that 
+
+- Will be deployed on https://render.com
+- Allow user create an account with basic user information
+- Allow a user login
+- Allow a user have a wallet
+- Allow a user create a transaction PIN
+- Allow a user create a donation to a fellow user (beneficiary) with adequate authorization.
+- Allow a user check how many donations he/she has made with adequate authorization.
+- Have ability to a special thank you message via email or sms or any mock communication channel, if they make two(2) or more donations.
+- Allow a user view all donation made in a given period of time using adequate authorization.
+- Allow a user view a single donation made to a fellow user (beneficiary) with adequate authorization.
+
+Documentation
+
+Please deliver documentation of the server that clearly explains the goals of this project and clarifies the API response that is expected.
+
+Implement Pagination
+
+Please implement pagination to retrieve pages of the resource.
+
+Security
+
+Please implement the following security controls for your system:
+
+- Ensure the system is not vulnerable to SQL injection
+- [BONUS] Implement an additional security improvement of your choice

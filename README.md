@@ -1,12 +1,5 @@
 # DonorWallet
 
-## TODO
-
-- [ ] Implement function to count the number of donations made by a user.
-- [ ] Implement logic to send a thank you message via email or sms after user makes 2 or more donations.
-- [ ] Add functionality to filter donations by a specific time period.
-- [ ] Implement endpoint to view details of a single donation.
-
 ## Roadmap
 
 - [ ] Will be deployed on [Render](https://render.com).

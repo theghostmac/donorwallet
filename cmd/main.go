@@ -12,7 +12,9 @@ func main() {
 	database.InitDB()
 	defer database.CloseDB()
 
-	logger.Info("Starting server on default port 8080...")
+	port := ":6569"
+
+	logger.Info("Starting server on default port.", zap.String("port", port))
 	router := apis.InitRouter()
-	router.Run(":6569")
+	router.Run(port)
 }
